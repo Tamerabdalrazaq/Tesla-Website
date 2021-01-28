@@ -43,6 +43,14 @@ a{
     clear:both;
 }
 
+button{
+    padding: 10px 28px;
+    background-color: transparent;
+    border-radius: 20px;
+    color: #fff;
+    border: 3px solid #fff;
+}
+
 /* NAVBAR */
 .navbar{
     position: fixed;
@@ -127,6 +135,6 @@ nav a:hover{
 .model3 .box{
     width: 25%;
     text-align: center;
-    border-right: 1px solid #fff;
     float: left;
+    border-right: 1px solid #fff;
 }
