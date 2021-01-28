@@ -1,0 +1,132 @@
+@font-face{
+    src: url('./font/tesla.ttf');
+    font-family: tesla;
+}
+
+@font-face{
+    src: url('./font/gothamm.ttf');
+    font-family: gothamm;
+}
+
+@font-face{
+    src: url('./font/gothammthin.ttf');
+    font-family: gothammthin;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:gothammthin;
+    color: #fff;
+}
+
+section{
+    height: 100vh;
+    width: 100vw;
+    box-shadow:inset 0px -50px 800px 60px #1a1a1b;
+    position: relative;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.clr{
+    clear:both;
+}
+
+/* NAVBAR */
+.navbar{
+    position: fixed;
+    top: 0px;
+    left:0px;
+    width: 100vw;
+    z-index: 1;
+    font-family: gothamm;
+}
+nav li{
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+nav .logo{
+    margin: 20px 0 0 20px;
+    font-size: 19px;
+    letter-spacing: 5px;
+    color: #fff;
+    font-family: tesla;
+}
+
+nav .navLeft{
+    float: left;
+    width:20%
+}
+
+nav .navCenter{
+    float: left;
+    width: 60%;
+    text-align: center;
+}
+
+nav .navRight{
+    float: right;
+    width: 20%;
+}
+
+nav .navRight li{
+    float: right;
+}
+
+nav a{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+nav a:hover{
+    color: rgb(224, 224, 224);
+}
+
+/* SECTION 3 */
+
+.model3{
+    height: 100vh;
+    width: 100vw;
+    background: url('./img/bg-model3.jpg') no-repeat center center/cover;
+    box-shadow:inset 0px -50px 800px 60px #1a1a1b;
+}
+
+.model3 .mainHeading{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 12vh;
+    font-size: 36px;
+    font-family: gothamm;
+}
+
+.model3 .bottomDetails{
+    position: absolute;
+    bottom: 12vh;
+    left: 25vw;
+    width: 50vw;
+}
+
+.model3 i, .model3 h2{
+    display: inline;
+    font-size: 35px;
+}
+
+.model3 .box{
+    width: 25%;
+    text-align: center;
+    border-right: 1px solid #fff;
+    float: left;
+}
