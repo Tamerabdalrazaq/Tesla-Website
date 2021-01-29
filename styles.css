@@ -422,3 +422,43 @@ h6.miniDetail{
     margin-left: 8px;
 }
 
+/* SECTION 6 */
+
+.section6 .sec6Main{
+    height: 70vh;
+    width: 100vw;
+    background: url('./img/section6.jpg') no-repeat center center/cover;
+    box-shadow:inset 0px -50px 800px 60px #1a1a1b;
+    position: relative;
+}
+
+.section6 .sideDetails{
+    width: 20vw;
+    height: 70vh;
+    float: right;
+    margin-right: 30px;
+}
+
+.section6 .sideDetails .break{
+    width: 30%;
+    border-bottom: 1px solid #fff;
+    margin: 35px 0 0 0;
+}
+
+.section6 .sideDetails .sidebox{
+    width: 100%;
+    margin: 40px;
+}
+
+.section6 .sideDetails i{
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+#moreButtonSec6{
+    padding:4px 12px;
+    border-radius: 50%;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
