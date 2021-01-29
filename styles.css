@@ -27,6 +27,7 @@ body{
     font-family:gothamnorm;
     color: #fff;
     line-height: 1.3;
+    overflow-x: hidden; 
 }
 
 section{
@@ -245,49 +246,49 @@ h6.miniDetail{
     font-size: 10px;
 }
 
-.section3 .sec3Bottom{
+.sec34Bottom{
     width: 100vw;
     height: 30vh;
     color: #1a1a1b;
 }
 
-.section3 .sec3Bottom .container{
+.sec34Bottom .container{
     width: 70%;
     margin: 0 auto;
     padding: 40px 40px;
     height: 30vh;
 }
 
-.section3 .sec3Bottom .left{
+.sec34Bottom .left{
     float: left;
     width: 35%;
 }
 
-.section3 .sec3Bottom .right{
+.sec34Bottom .right{
     float: right;
     width: 65%;
 }
 
-.section3 .sec3Bottom p{
+.sec34Bottom p{
     font-size: 16px;
 }
-.section3 .sec3Bottom h2{
+.sec34Bottom h2{
     font-size: 28px;
     display: block;
     margin-bottom: 15px;
 }
 
-.section3 .sec3Bottom button{
+.sec34Bottom button{
     border-color: #111;
     color: #222;
 }
 
-.section3 .sec3Bottom button{
+.sec34Bottom button{
     border-color: #111;
     color: #222;
     padding: 8px 28px;
 }
-.section3 .sec3Bottom button:hover{
+.sec34Bottom button:hover{
     background-color: #111;
     color: #fff;
     cursor: pointer;
@@ -301,7 +302,123 @@ h6.miniDetail{
     font-weight: 900;
 }
 
-.section3 .sec3Bottom label{
+.section3 .sec34Bottom label{
     margin-right: 14px;
     margin-left: 8px;
 }
+
+/* SECTION 4 */
+
+.sec4Main{
+    height: 70vh;
+    width: 100vw;
+    background: url('./img/section4.jpg') no-repeat center center/cover;
+    box-shadow:inset 0px -50px 800px 60px #1a1a1b;
+    position: relative;
+}
+
+.section4 .sec4Main .bottomDetails {
+    left: 12vw;
+    width: 70vw;
+}
+.section4 .sec4Main .box {
+    width: 33.3%;
+}
+.section4 i, .section4 h2{
+    display: inline;
+    font-size: 35px;
+}
+
+.section4 .sec34Bottom p{
+    font-size: 15px;
+}
+
+.section4 .box{
+    text-align: left;
+
+}
+
+.section4 .sec34Bottom h2{
+    font-size:27px;
+    display: block;
+}
+
+.section4 h4{
+    font-family: gothammthin;
+}
+
+/* SECTION 5 */
+
+.sec5Main{
+    height: 100vh;
+    width: 74vw;
+    background: url('./img/section5.jpg') no-repeat center center/cover;
+    box-shadow:inset 0px -50px 800px 60px #1a1a1b;
+    position: relative;
+    float: left;
+}
+
+.section5 .sec5Main .bottomDetails{
+    left: 8vw;
+    width: 80%;
+}
+
+.section5 .sec5Main .bottomDetails .box{
+    width: 33.3%;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.section5 aside{
+    width: 26vw;
+    float: right;
+    color: #3a3c3f;
+}
+
+.section5 aside{
+    padding: 55px 20px 20px 20px;
+}
+
+
+.section5 aside img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.section5 aside h2{
+    color: #090909;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.section5 aside h4{
+    color: #090909;
+    font-size: 16px;
+    font: gothammthin;
+    font-weight: 300;
+}
+
+.section5 button{
+    border-color: #111;
+    color: #222;
+    padding: 8px 28px;
+}
+.section5 button:hover{
+    background-color: #111;
+    color: #fff;
+    cursor: pointer;
+}
+
+#moreButtonSec5{
+    padding:4px 12px;
+    border-radius: 50%;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.section5 label{
+    margin-right: 14px;
+    margin-left: 8px;
+}
+
