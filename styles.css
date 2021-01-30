@@ -1,3 +1,20 @@
+/* 
+Since this project is not designed to be responsive, the view may vary from device to another.
+My screen resolution(which this project was built upon) is 1536 x 864
+Screen Width: 1536 pixels
+Screen Height: 864 pixels
+So excited to learn responsive design!
+*/
+
+
+/* 
+I've noticed that I copy and paste my code over and over(Especially in CSS) in cases I could 
+write the code once in a single class. Unfortunately I had noticed that too late to fix it 
+and reduce the repetition:D. So I will leave that to the next project
+*/
+
+
+
 @font-face{
     src: url('./font/tesla.ttf');
     font-family: tesla;
@@ -54,6 +71,7 @@ button{
     border-radius: 20px;
     color: #fff;
     border: 3px solid #fff;
+    transition: all 0.3s linear;
 }
 
 .bottomDetails{
@@ -145,6 +163,11 @@ nav a:hover{
 .model3 i, .model3 h2{
     display: inline;
     font-size: 35px;
+}
+
+.model3 button:hover{
+    background-color: #fff;
+    color: #111;
 }
 
 /* SECTION 2 */
@@ -520,10 +543,86 @@ h6.miniDetail{
 
 }
 
+.section7 button:hover{
+    border-color: #EEEEEE;
+}
+
 button#compare{
     background-color: #3a3c3f;
 }
 
 button#performance{
     border-color: #fff;
+}
+
+/* SECTION 8 */
+.section8{
+    background-color: #000;
+}
+
+.section8 header{
+    height: 90vh;
+    width: 100vw;
+}
+
+.section8 .left{
+    width: 45vw;
+    float: left;
+    position: relative;
+}
+
+.section8 .mainimg{
+    height: 90vh;
+    width: 55vw;
+    background: url('./img/section8.png') no-repeat right center/cover;
+    background-size: cover;
+    background-size: 100%;
+    float: right;
+}
+
+.section8 .wrapper{
+    width: 70%;
+    margin: auto;
+    position: absolute;
+    top: 40vh;
+    left: 25%;
+    text-align: left;
+}
+
+.section8 .wrapper h1{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.section8 .wrapper button{
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 10px 69px;
+}
+
+.section8 .wrapper button:hover{
+    background-color: #fff;
+    color: #111;
+    cursor: pointer;
+}
+
+.section8 .wrapper .ordernow{
+    background-color: #fff;
+    color: #111;
+}
+
+footer{
+    width: 100vw;
+    text-align: center;
+}
+
+footer li{
+    display: inline-block;
+    padding: 25px 10px;
+}
+footer li a{
+    color: #EEEEEE;
+    font-size: 12px;
+    font-family: gothamm;
+    letter-spacing: 1.4px;
 }
